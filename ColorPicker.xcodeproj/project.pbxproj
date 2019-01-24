@@ -25,7 +25,7 @@
 		08ED3F2021F9A5C700E8DB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08ED3F2221F9A5C700E8DB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08ED3F2921F9AA9F00E8DB50 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		08ED3F2D21F9AE4600E8DB50 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		08ED3F2D21F9AE4600E8DB50 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,6 @@
 		08ED3F0A21F9A5C600E8DB50 = {
 			isa = PBXGroup;
 			children = (
-				08ED3F2D21F9AE4600E8DB50 /* ColorPickerViewController.swift */,
 				08ED3F1521F9A5C600E8DB50 /* ColorPicker */,
 				08ED3F1421F9A5C600E8DB50 /* Products */,
 			);
@@ -59,6 +58,7 @@
 		08ED3F1521F9A5C600E8DB50 /* ColorPicker */ = {
 			isa = PBXGroup;
 			children = (
+				08ED3F2D21F9AE4600E8DB50 /* ColorPickerViewController.swift */,
 				08ED3F1621F9A5C600E8DB50 /* AppDelegate.swift */,
 				08ED3F1821F9A5C600E8DB50 /* ViewController.swift */,
 				08ED3F1A21F9A5C600E8DB50 /* Main.storyboard */,

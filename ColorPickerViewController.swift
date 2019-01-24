@@ -10,12 +10,13 @@ import UIKit
 
 class ColorPickerViewController: UIViewController {
 
+    var delegate: ColorPickerViewDelegate?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    weak var delegate: ColorPickerViewDelegate?
     
 
     /*
@@ -27,13 +28,9 @@ class ColorPickerViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    
-    
-    
+   
 
 }
-
-
 
 protocol ColorPickerViewDelegate: class {
     func userDidChooseColor(color: UIColor)

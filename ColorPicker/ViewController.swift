@@ -15,12 +15,18 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "colorPickLink" {
+         let delegateVC = segue.destination as! ColorPickerViewController
+            delegateVC.delegate = self
+        }
+    }
 
 }
 
-extension ColorPickerViewDelegate{
+extension ViewController : ColorPickerViewDelegate{
     func userDidChooseColor(color: UIColor){
-        
+        self.dismiss(animated: true, completion: nil)
     }
 }
 
