@@ -18,3 +18,9 @@ class ViewController: UIViewController {
 
 }
 
+extension ColorPickerViewDelegate{
+    func userDidChooseColor(color: UIColor){
+        
+    }
+}
+
